@@ -161,6 +161,18 @@ Please check the preview or download it on your computer.
 
 ---
 
+## Luke Kim (@kilkim in 42 Silicon Valley)
+
+- A Web developer who likes trying new things.
+
+- Studies computer science at 42 Silicon Valley.
+
+- Majored in mechanical Engineering.
+
+- Contact: dyobi.92@gmail.com
+
+---
+
 ## Aidan Lim (@dlim in 42 Silicon Valley)
 
 - A Web & App developer who love traveling.
@@ -173,19 +185,7 @@ Please check the preview or download it on your computer.
 
 ---
 
-## Luke Lim (@kilkim in 42 Silicon Valley)
-
-***Not Yet***
-
----
-
-## Hongseok Ryu (@hryu in 42 Silicon Valley)
-
-***Not Yet***
-
----
-
 ## License
 
 - <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html" target="_blank">`GNU General Public License v2.0`</a>
-- Copyright 2020. Aidan Lim, Luke Kim, and Hongseok Ryu. All rights reserved.
+- Copyright 2020. Aidan Lim, Luke Kim. All rights reserved.
