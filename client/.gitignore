@@ -1,0 +1,11 @@
+#node_modules
+/node_modules
+/build
+
+#unnecessary file
+.DS_Store
+._.DS_Store
+
+#protect api key file
+/src/constants/api.js
+/src/constants/url.js

@@ -1,0 +1,25 @@
+.userMenu,
+.userMenu-active {
+    width: auto;
+    height: 1.5rem;
+
+    padding: 0 1rem;
+
+    position: relative;
+    float: left;
+
+    color: var(--color-30);
+    font-size: 0.7rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+
+    background-color: var(--color-85);
+
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.userMenu-active {
+    color: var(--color-A);
+    background-color: var(--color-75);
+}

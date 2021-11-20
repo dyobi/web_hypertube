@@ -1,0 +1,19 @@
+.searchNull {
+    width: 100%;
+    height: calc(100% - var(--size-header));
+
+    padding: 3rem 0.5rem;
+
+    overflow: hidden;
+
+    position: relative;
+    float: left;
+
+    color: var(--color-30);
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-align: center;
+
+    background-color: var(--color-70);
+    box-sizing: border-box;
+}

@@ -1,0 +1,67 @@
+.similarMovie {
+    width: calc(10% - 1rem);
+    height: auto;
+
+    overflow: hidden;
+
+    margin: 0.5rem;
+
+    position: relative;
+    float: left;
+
+    background-color: var(--color-85);
+    border-radius: 0.35rem;
+
+    transition: 0.5s;
+}
+
+.similarMovie-poster {
+    width: 100%;
+    padding-top: calc(100% / 3 * 4.5);
+
+    position: relative;
+    float: left;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.similarMovie-title {
+    width: calc(100% - 1rem);
+    height: 2rem;
+
+    margin: 0 0.5rem;
+
+    overflow: hidden;
+
+    position: relative;
+    float: left;
+
+    color: var(--color-A);
+    font-size: 0.6rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 2rem;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+@media (max-width: 100rem) {
+    .similarMovie {
+        width: calc(100% / 6 - 1rem);
+    }
+}
+
+@media (max-width: 80rem) {
+    .similarMovie {
+        width: calc(100% / 4 - 1rem);
+    }
+}
+
+@media (max-width: 60rem) {
+    .similarMovie {
+        width: calc(100% / 3 - 1rem);
+    }
+}

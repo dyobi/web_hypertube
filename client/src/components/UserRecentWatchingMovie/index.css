@@ -1,0 +1,75 @@
+.userRecentWatchingMovie {
+    width: calc(100% / 4 - 1.5rem / 3);
+    height: auto;
+
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    position: relative;
+    float: left;
+
+    background-color: var(--color-80);
+
+    opacity: 0.75;
+    transition: 0.5s;
+}
+
+.userRecentWatchingMovie:hover {
+    opacity: 1;
+}
+
+.userRecentWatchingMovie-picture {
+    width: 100%;
+    padding-top: calc(100% / 3 * 4);
+
+    overflow: hidden;
+
+    position: relative;
+    float: left;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.userRecentWatchingMovie-title {
+    width: calc(100% - 1rem);
+    height: 1.25rem;
+
+    margin: 0 0.5rem;
+
+    overflow: hidden;
+
+    position: relative;
+    float: left;
+
+    color: var(--color-A);
+    font-size: 0.5rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.25rem;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.userRecentWatchingMovie-time {
+    width: calc(100% - 1rem);
+    height: 1rem;
+
+    margin: 0 0.5rem;
+
+    overflow: hidden;
+
+    position: relative;
+    float: left;
+
+    color: var(--color-A);
+    font-size: 0.4rem;
+    font-weight: 300;
+    text-align: center;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}

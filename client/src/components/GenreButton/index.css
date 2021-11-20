@@ -1,0 +1,33 @@
+.genreButton,
+.genreButton-active {
+    width: auto;
+    height: auto;
+
+    margin-bottom: 0.75rem;
+    padding: 0.5rem;
+
+    position: relative;
+    float: left;
+
+    color: var(--color-50);
+    font-size: 0.7rem;
+    font-weight: 500;
+
+    background: none;
+    border: none;
+    border-radius: 1rem;
+    transition: 0.5s;
+
+    cursor: pointer;
+    outline: none;
+}
+
+.genreButton:hover {
+    color: var(--color-primary-light);
+}
+
+.genreButton-active {
+    color: var(--color-primary);
+
+    background-color: var(--color-70);
+}

@@ -1,0 +1,35 @@
+.header {
+    width: 100%;
+    height: var(--size-header);
+
+    position: relative;
+    float: left;
+
+    background-color: var(--color-90);
+
+    z-index: 2;
+}
+
+.header-ci-section {
+    width: 30%;
+    height: 100%;
+
+    position: relative;
+    float: left;
+}
+
+.header-search-section {
+    width: 40%;
+    height: 100%;
+
+    position: relative;
+    float: left;
+}
+
+.header-util-section {
+    width: 30%;
+    height: 100%;
+
+    position: relative;
+    float: left;
+}

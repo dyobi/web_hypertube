@@ -1,0 +1,22 @@
+.ci-icon {
+    width: 1.75rem;
+    height: 1.75rem;
+
+    position: absolute;
+    top: 50%;
+    left: 0.5rem;
+    transform: translate(0, -50%);
+}
+
+.ci-title {
+    position: absolute;
+    top: 50%;
+    left: 2.5rem;
+    transform: translate(0, -55%);
+
+    color: var(--color-A);
+    font-size: 0.9rem;
+    font-weight: 500;
+
+    cursor: pointer;
+}

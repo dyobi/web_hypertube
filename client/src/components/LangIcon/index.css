@@ -1,0 +1,27 @@
+.langIcon {
+    width: var(--size-header);
+    height: var(--size-header);
+
+    padding: calc((var(--size-header) - 1rem) / 2);
+
+    position: relative;
+    float: right;
+
+    box-sizing: border-box;
+
+    cursor: pointer;
+}
+
+.langIcon-image {
+    width: 1.25rem;
+    height: 1.25rem;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-size: 1.25rem 1.25rem;
+
+    transition: 0.5s;
+}

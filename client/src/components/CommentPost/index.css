@@ -1,0 +1,71 @@
+.commentPost {
+    width: 100%;
+    height: 5rem;
+
+    overflow: hidden;
+
+    position: relative;
+    float: left;
+
+    background-color: var(--color-80);
+}
+
+.commentPost-textarea {
+    width: 100%;
+    height: 3.5rem;
+
+    padding: 0.5rem;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    position: relative;
+    float: left;
+
+    color: var(--color-E);
+    font-size: 0.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+
+    background-color: var(--color-75);
+    border: none;
+    border-radius: 0;
+
+    box-sizing: border-box;
+    resize: none;
+    outline: none;
+}
+
+.commentPost-button-container {
+    width: 100%;
+    height: 1.5rem;
+
+    padding: 0.25rem;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    position: relative;
+    float: left;
+
+    box-sizing: border-box;
+}
+
+.commentPost-button {
+    width: auto;
+    height: 100%;
+
+    position: relative;
+    float: left;
+
+    color: var(--color-30);
+    font-size: 0.5rem;
+    font-weight: 700;
+
+    background-color: var(--color-85);
+    border: none;
+    border-radius: 0.25rem;
+
+    outline: none;
+    cursor: pointer;
+}

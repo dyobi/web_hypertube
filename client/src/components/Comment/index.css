@@ -1,0 +1,107 @@
+.comment-container {
+    width: 100%;
+    height: auto;
+
+    margin-bottom: 0.75rem;
+
+    position: relative;
+    float: left;
+}
+
+.comment {
+    width: calc(100% - 1rem);
+    height: auto;
+
+    position: relative;
+    float: left;
+}
+
+.comment-picture {
+    width: 2rem;
+    padding-top: 2rem;
+
+    position: relative;
+    float: left;
+
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.comment-content {
+    width: calc(100% - 2rem);
+    height: auto;
+
+    padding: 0 0.75rem;
+
+    position: relative;
+    float: left;
+
+    box-sizing: border-box;
+}
+
+.comment-content-name {
+    width: auto;
+    height: auto;
+    min-height: 1rem;
+
+    margin-right: 0.5rem;
+
+    position: relative;
+    float: left;
+
+    color: var(--color-C);
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1rem;
+}
+
+.comment-content-time {
+    width: auto;
+    height: auto;
+    min-height: 1rem;
+
+    position: relative;
+    float: left;
+
+    color: var(--color-A);
+    font-size: 0.4rem;
+    font-weight: 300;
+    text-align: left;
+    line-height: 1rem;
+}
+
+.comment-content-message {
+    width: 100%;
+    height: auto;
+    min-height: 1rem;
+
+    overflow: hidden;
+
+    position: relative;
+    float: left;
+
+    color: var(--color-B);
+    font-size: 0.6rem;
+    font-weight: 300;
+    text-align: left;
+    line-height: 1rem;
+
+    white-space: normal;
+    word-break: break-all;
+}
+
+.comment-delete {
+    width: 0.7rem;
+    height: 0.7rem;
+
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%, -50%);
+
+    color: var(--color-30);
+
+    cursor: pointer;
+}

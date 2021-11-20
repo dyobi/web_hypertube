@@ -1,0 +1,25 @@
+.socialSignInWith42 {
+    width: 100%;
+    height: calc(100% - var(--size-header));
+
+    overflow: hidden;
+
+    position: relative;
+    float: left;
+
+    background-color: var(--color-70);
+}
+
+.socialSignInWith42-loading {
+    width: auto;
+    height: auto;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: var(--color-A);
+    font-size: 1.5rem;
+    font-weight: 300;
+}

@@ -1,0 +1,11 @@
+.userSetting {
+    width: 100%;
+    height: auto;
+
+    padding: 1rem;
+
+    position: relative;
+    float: left;
+
+    box-sizing: border-box;
+}

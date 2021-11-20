@@ -1,0 +1,85 @@
+.torrent,
+.torrent-restrict,
+.torrent-inactive {
+    width: 100%;
+    height: auto;
+
+    padding: 0.5rem 1rem 0rem 1rem;
+
+    position: relative;
+    float: left;
+
+    box-sizing: border-box;
+}
+
+.torrent-restrict {
+    opacity: 0.5;
+}
+
+.torrent-inactive {
+    opacity: 0.3;
+}
+
+.torrent-title {
+    width: 100%;
+    height: auto;
+
+    overflow: hidden;
+
+    position: relative;
+    float: left;
+
+    color: var(--color-10);
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.5;
+
+    word-wrap: break-word;
+}
+
+.torrent-title-resolution {
+    color: var(--color-C);
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.torrent-title-resolution-1080 {
+    color: #80cbc4;
+}
+
+.torrent-title-resolution-720 {
+    color: #e6ee9c;
+}
+
+.torrent-info {
+    width: auto;
+    height: 1rem;
+
+    position: relative;
+    float: left;
+
+    color: var(--color-30);
+    font-size: 0.6rem;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1rem;
+}
+
+.torrent-division {
+    width: auto;
+    height: 1rem;
+
+    padding: 0 0.5rem;
+
+    position: relative;
+    float: left;
+
+    color: var(--color-60);
+    font-size: 0.5rem;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1rem;
+}

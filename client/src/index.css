@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+@media (max-width: 360px) {
+    html {
+        font-size: 10px;
+    }
+}
+@media (min-width: 361px) and (max-width: 399px) {
+    html {
+        font-size: 11px;
+    }
+}
+@media (min-width: 400px) and (max-width: 439px) {
+    html {
+        font-size: 12px;
+    }
+}
+@media (min-width: 440px) and (max-width: 479px) {
+    html {
+        font-size: 13px;
+    }
+}
+@media (min-width: 480px) and (max-width: 519px) {
+    html {
+        font-size: 14px;
+    }
+}
+@media (min-width: 520px) and (max-width: 559px) {
+    html {
+        font-size: 15px;
+    }
+}
+@media (min-width: 560px) and (max-width: 599px) {
+    html {
+        font-size: 16px;
+    }
+}
+@media (min-width: 600px) and (max-width: 639px) {
+    html {
+        font-size: 17px;
+    }
+}
+@media (min-width: 640px) and (max-width: 679px) {
+    html {
+        font-size: 18px;
+    }
+}
+@media (min-width: 680px) and (max-width: 719px) {
+    html {
+        font-size: 19px;
+    }
+}
+@media (min-width: 720px) and (max-width: 759px) {
+    html {
+        font-size: 20px;
+    }
+}
+@media (min-width: 760px) and (max-width: 799px) {
+    html {
+        font-size: 21px;
+    }
+}
+@media (min-width: 800px) and (max-width: 839px) {
+    html {
+        font-size: 22px;
+    }
+}
+@media (min-width: 840px) and (max-width: 879px) {
+    html {
+        font-size: 23px;
+    }
+}
+@media (min-width: 880px) {
+    html {
+        font-size: 24px;
+    }
+}
+
+body {
+    width: 100vw;
+    height: auto;
+
+    margin: 0;
+    padding: 0;
+
+    overflow: hidden;
+
+    font-family: 'Barlow', sans-serif;
+
+    background-color: var(--color-85);
+}
+
+.no-drag {
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='submit'],
+input[type='button'],
+textarea {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+    width: 5px;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #272727;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #474747;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555555;
+}
+
+body.react-confirm-alert-body-element {
+    overflow: hidden;
+}
+
+.react-confirm-alert-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: #202020;
+}
+
+.react-confirm-alert-body {
+    width: 20rem;
+    height: 3rem;
+    padding: 1rem;
+
+    position: absolute;
+    top: calc(50% - 2.5rem);
+    left: calc(50% - 11rem);
+
+    color: #808080;
+    font-size: 0.75rem;
+    font-weight: 500;
+
+    background: #404040;
+    border: solid 0.1rem #202020;
+    border-radius: 0.5rem;
+}
+
+.react-confirm-alert-button-group {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0.85rem;
+}
+
+.react-confirm-alert-button-group > button {
+    width: auto;
+    height: auto;
+
+    margin-right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+
+    color: #aaaaaa;
+    font-size: 0.5rem;
+    font-weight: 500;
+
+    background: #303030;
+    border: none;
+    border-radius: 0.25rem;
+
+    cursor: pointer;
+    outline: none;
+}
+
+@-webkit-keyframes react-confirm-alert-fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes react-confirm-alert-fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes react-confirm-alert-fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes react-confirm-alert-fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

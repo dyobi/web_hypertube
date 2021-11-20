@@ -1,0 +1,42 @@
+{
+    "name": "portfolio_hypertube_stream",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "addr-to-ip-port": "^1.5.1",
+        "bitfield": "^3.0.0",
+        "bittorrent-dht": "^9.0.3",
+        "bittorrent-protocol": "^3.1.1",
+        "cors": "^2.8.5",
+        "end-of-stream": "^1.4.4",
+        "events": "^3.1.0",
+        "express": "^4.17.1",
+        "fluent-ffmpeg": "^2.1.2",
+        "fs-chunk-store": "^2.0.1",
+        "immediate-chunk-store": "^2.1.0",
+        "net": "^1.0.2",
+        "node-schedule": "^1.3.2",
+        "parallel": "^1.2.0",
+        "parse-numeric-range": "0.0.2",
+        "parse-torrent": "^7.0.1",
+        "random-iterate": "^1.0.1",
+        "randombytes": "^2.1.0",
+        "readable-stream": "^3.6.0",
+        "run-parallel-limit": "^1.0.5",
+        "simple-sha1": "^3.0.1",
+        "system-sleep": "^1.3.6",
+        "torrent-discovery": "^9.2.1",
+        "torrent-piece": "^2.0.0",
+        "uniq": "^1.0.1",
+        "unordered-array-remove": "^1.0.2",
+        "ut_metadata": "^3.5.0",
+        "ut_pex": "^2.0.0"
+    }
+}
