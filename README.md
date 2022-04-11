@@ -1,4 +1,4 @@
-<a href="https://hypertube.aidandlim.com" title="header" alt="header">
+<a href="https://github.com/dyobi/web_hypertube" title="header" alt="header">
   <img src="https://www.freeiconspng.com/uploads/youtube-icon-block-png-17.png" width="200" height="200" title="header" alt="header">
 </a>
 
@@ -12,7 +12,7 @@
 
 ## Preview
 
-<img src="https://github.com/dyobi/WEBPJT_HYPERTUBE/blob/master/PREVIEW.png?raw=true" width="100%" title="preview" alt="preview">
+<img src="https://github.com/dyobi/web_hypertube/blob/master/PREVIEW.png?raw=true" width="100%" title="preview" alt="preview">
 
 ---
 
