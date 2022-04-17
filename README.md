@@ -37,7 +37,7 @@ You can just use Makefile for installation & initialization of the project easil
 The first step is cloning git repository from GitHub using `git clone` command.
 
 ```shell
-git clone https://github.com/dyobi/WEBPJT_HYPERTUBE.git && cd WEBPJT_HYPERTUBE
+git clone https://github.com/dyobi/web_hypertube.git && cd web_hypertube
 ```
 
 <br>
